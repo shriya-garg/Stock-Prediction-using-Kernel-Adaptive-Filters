@@ -1,10 +1,17 @@
 # Stock-Prediction-using-Kernel-Adaptive-Filters
+
+In this project I have used created a Chaotic multivariate dataset using difference equation which is a non-linear dataset and tested and compared various algorithms (Kernel Least Mean Square, Kernel Least Recursive Square, Least Mean Square, QKLMS, CKLMS comapred with ANN, SVR models) on it.
+  
+
 The jupyter notebook:
   1. Sequencial ANN and SVR.ipynb - contains the sequential training of ann and svr models
   2. yokl.ipynb - Various kernel adaptive filters I have applied on the sama dataset
   
 Dataset used: 
-  Chaotic_dataset.csv : Chaotic multivariate dataset seld created using
+  Chaotic_dataset.csv : Chaotic multivariate dataset is generated  by  iterating the equation given in below mentioned research paper with the initial condition  (0.1,0.1).
+  
+  Research paper “Online Prediction of Time Series Data With Kernels” by Cédric Richard, Senior Member, IEEE, José Carlos M. Bermudez, Senior Member, IEEE, and Paul Honeine, Member, IEEE.  
+  
   
 Images used for comaprison
   1.ANN.png 	
